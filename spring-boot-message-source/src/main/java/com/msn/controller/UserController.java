@@ -20,7 +20,7 @@ public class UserController {
 
 	@GetMapping
 	public String getMesaageFromMessagePropertiesFile() {
-		LOGGER.info(messages.getMessage("text")); // this does not return the value, on it can be used for printing on console
+		LOGGER.info(messages.getMessage("text")); // this does not return the value, only it can be used for printing on console
 		return "Working fine";
 	}
 }
